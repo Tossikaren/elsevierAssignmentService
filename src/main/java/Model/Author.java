@@ -1,3 +1,5 @@
+package Model;
+
 public class Author {
 
     private String firstName;
@@ -14,5 +16,13 @@ public class Author {
 
     public String getLastName() {
         return lastName;
+    }
+
+    @Override
+    public String toString() {
+        return "Author{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
     }
 }
